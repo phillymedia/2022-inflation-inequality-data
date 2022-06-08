@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+ipython = "*"
+ipykernel = "*"
+pandas = "*"
+matplotlib = "*"
+notebook = "*"
+jupyterlab = "*"
+altair = "*"
+jupytext = "*"
+jupyterlab-templates = "*"
+lxml = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
+
+[scripts]
+first_install = "python .first_install.py"
+export_rmarkdown = "Rscript .export_rmarkdown.R"
+export_html_notebook = "jupyter-nbconvert --to html --template ap_report --execute --output-dir ./data/html_reports/ --TemplateExporter.extra_template_basedirs=./.nbconvert_templates"
