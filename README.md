@@ -1,6 +1,6 @@
 # 2022-inflation-inequality-data
 
-Methodology for data cleaning and analysis for Philadelphia Inquirer's "TK INFLATION HEADLINE STORY", published June 11th, 2022.
+Methodology for data cleaning and analysis for Philadelphia Inquirer's `WHAT SOARING INFLATION MEANS FOR YOUR HOUSEHOLD`, published June 11th, 2022.
 
 ## Project goal
 
@@ -33,7 +33,7 @@ After cloning the git repo:
       - The low-income households are those that earn between $15,000 and $30,000.
       - High-income households earn between $100,000 and $149,999.
 
-2. The `housing` category in the story refers to `shelter` expenditures, which describe rent or mortage payments and accounts for how high-income households usually hold property and low-income households usually rent. We exclude some data in the BLS `housing` expenditures category, which includes utilities and other housing-related expenditures. 
+2. The `housing` category in the story refers to `shelter` expenditures, which describe rent or mortgage payments and accounts for how high-income households usually hold property and low-income households usually rent. We exclude some data in the BLS `housing` expenditures category, which includes utilities and other housing-related expenditures. 
 
 2. The `transportation` category in the story includes the costs of buying fuel, paying for public transportation, and purchasing new and used vehicles. `Gas` costs fall into the fuels subcategory of transportation and are distinct from the natural gas costs used in household contexts like heat and cooking, which are counted as utilities within housing expenditures.
 
